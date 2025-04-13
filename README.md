@@ -1,23 +1,86 @@
-# genius-pixel-play
- a fully interactive synthesizer and tone experience, embedded inside your Genius chat interface.
+# 🎛️ Genius Pixel Play
 
-Genius Pixel Play is a modular, immersive sound component designed for creative web environments. It gives users an expressive playground inside the UI, combining sound, animation, and customization.
+**Version:** 1.5 Core Build\
+**Project Type:** React + Tailwind + Framer Motion + Web Audio API\
+**Repository:** [github.com/ChandieFae/genius-pixel-play](https://github.com/ChandieFae/genius-pixel-play/tree/main)
 
- Features
+**Genius Pixel Play** is the core interactive audio suite within the G-PAD system. Designed for expression, creativity, and play, it features real-time tone interaction, sound-reactive stickers, and the mystical G=Wiz glyphs—all powered by Chandiefae’s GeniusGPT.
 
- Synth Mode – Play a full octave from C4 to C5
- Oscillator Options – Sine, Square, Triangle, Sawtooth
- Volume Control – Real-time tone adjustment
- Tone Buttons – 4 stylized sound buttons with responsive tap animation
- Smooth UI – Built with Tailwind CSS + Framer Motion for animated transitions
+---
+
+## 🌟 Features
+
+- **🎹 Synth Pad**
+
+  - 8 playable tones (C4 to C5)
+  - Click-to-play using Web Audio API
+
+- **🎨 Sound Stickers**
+
+  - Animated emoji-style triggers (🎧 🚀 💥 etc.)
+  - Each includes a label, frequency, and animation type
+  - MVP+ structure supports future use of sound files and visual effects
+
+- **🔮 G=Wiz Glyphs**
+
+  - Custom glyphs with magical sound + animation behaviors
+  - Tap to trigger (currently logs action in dev mode)
+  - Includes ✴️ Starburst, 🎷 SaxGlyph, 🔮 Mystic Orb, 💫 SpinBeat
+
+---
+
+## 🧠 File Structure
+
+```
+src/
+├── components/
+│   └── GeniusPixelPlay.tsx      # Main UI component
+├── data/
+│   ├── tones.ts                 # Note-to-frequency mappings
+│   ├── stickers.ts              # Animated emoji sound stickers
+│   └── glyphMap.ts              # G=Wiz symbol definitions
+```
+
+---
+
+## 🚀 Setup Instructions
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/ChandieFae/genius-pixel-play.git
+cd genius-pixel-play
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Launch the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔮 Coming Soon (Next Model Upgrade)
+
+- 🔊 Full sound engine for G=Wiz glyphs
+- 🎤 Voice interaction (Ask Genius to sing, hum, vocalize)
+- 🧩 Custom animated sticker uploader
+- 🌈 Vibe Mode with visual theming
+- 🪄 Remix tools, playback FX, and user soundboard
+
+---
+
+## Built with 💜
+
+ by **Chandiefae, and  GeniusGPT**\
+A core module in the **G-PAD Experience Layer**
+
+> Let the Genius sing, vibe, and play. 🎙️🎛️
 
 
- Coming Soon
-
- Audible Chat Voice Reader
- Vibe Mode themes
- Soundboard packs + loops
- Voice playback options
-
-🧠 Powered By
-ChandieFae's GeniusGPT
